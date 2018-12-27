@@ -31,7 +31,7 @@ let g:lightline = {
 	\ 'colorscheme': 'monokai_tasty',
 	\ }
 set background=dark
-
+set t_ut
 
 
 
