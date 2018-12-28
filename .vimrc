@@ -9,9 +9,8 @@ Plug 'tpope/vim-sleuth'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'jiangmiao/auto-pairs'
 
-Plug 'pangloss/vim-javascript'
-Plug 'elzr/vim-json'
-Plug 'StanAngeloff/php.vim'
+" polyglot holds most language syntax definitions.
+Plug 'sheerun/vim-polyglot'
 
 Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
