@@ -31,7 +31,8 @@ let g:lightline = {
 	\ 'colorscheme': 'monokai_tasty',
 	\ }
 set background=dark
-set t_ut=
+" this fixes the weird highlighting bug that happens when using tmux:
+set t_ut=0
 
 
 
