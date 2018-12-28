@@ -7,6 +7,7 @@ Plug 'scrooloose/nerdcommenter'
 
 Plug 'tpope/vim-sleuth'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'jiangmiao/auto-pairs'
 
 Plug 'pangloss/vim-javascript'
 Plug 'elzr/vim-json'
@@ -66,3 +67,16 @@ set cursorline
 
 " show the matching part of the pair for [] {} and ()
 set showmatch
+
+
+
+"
+" PLUGIN SETTINGS
+"
+
+" NERDCOMMENTER
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims=1
+
+" Enable trimming of trailing whitespace when uncommenting
+let g:nerdtrimtrailingwhitespace = 1
